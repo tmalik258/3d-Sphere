@@ -22,7 +22,7 @@ const sizes = {
 }
 
 // light
-const light = new THREE.PointLight(0xffffff, 100, 100)
+const light = new THREE.PointLight(0xffffff, 150, 100)
 light.position.set(0, 10, 10)
 scene.add(light)
 
