@@ -91,7 +91,7 @@ tl.fromTo('.title', { opacity: 0 }, { opacity: 1 });
 let mouseDown = false;
 let rgb = [];
 window.addEventListener('mousedown', () => {mouseDown = true})
-window.addEventListener('mousep', () => {mouseDown = false})
+window.addEventListener('mouseup', () => {mouseDown = false})
 
 window.addEventListener( 'mousemove', ( e ) =>
 {
